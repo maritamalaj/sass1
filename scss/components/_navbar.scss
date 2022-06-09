@@ -1,0 +1,48 @@
+nav  {
+    display: flex;
+    align-items:center;
+    background-color: $color-principal;
+    color:$medida-tipografia !important;
+    width: 100%;
+    height: 100%;
+    margin: 0px 30px;
+
+}
+
+.list_item {
+    
+    display: flex;
+    text-decoration: none;
+    color: $medida-tipografia;
+    text-align: center;
+    float: right;
+    margin: 20px 40px;
+    padding: 20px;
+    font-weight: 300;
+    background-position: right;
+    list-style: none;
+}
+
+.logo_navbar {
+    background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: $color-principal;
+    width: 90px;
+    height: 100%;
+  
+}
+
+.item {
+    float: right;
+    font-size: $medida-tipografia;
+    color: $color-tipografia !important;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.title {
+    color: $medida-tipografia;
+    text-align: center;
+}

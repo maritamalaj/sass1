@@ -1,0 +1,22 @@
+@import '../base/variables';
+
+.contenedor.header{
+    grid-area: header;
+    gap: 10px;
+    
+}
+
+.contenedor .contenido{
+       grid-area: contenido;
+       gap: 10px;
+}
+.contenedor .contenido_b{
+    grid-area: contenido_b;
+    gap: 10px;
+}
+
+.contenedor .foot{
+   grid-area: foot;
+   gap: 10px;
+}
+
