@@ -14,6 +14,7 @@
   grid-area: foot;
   gap: 10px; }
 
+/*footer*/
 .footer {
   display: flex;
   background-color: #132c5e;
