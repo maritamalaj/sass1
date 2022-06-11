@@ -1,6 +1,7 @@
 @import 'components/header';
 @import 'components/footer';
 @import 'base/variables';
+@import 'base/mixins';
 
 body {
     background-color: rgb(204, 204, 204);

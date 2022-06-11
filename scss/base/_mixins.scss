@@ -1,0 +1,31 @@
+@mixin varios ($relleno, $dispay, $alieacion ){
+    display:$dispay;
+    padding: $relleno;
+    text-align: $alieacion;
+
+}
+
+.footer_item {
+    @include varios (flex, 20px,center)
+}
+.em{
+    @include varios (flex, 10px,center)
+}
+
+@mixin img_wh ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+.contenedor  {
+    @include img_wh (100%, 100%)
+}
+.footer{
+    @include img_wh (100%, 100%)
+}
+
+.body{
+    @include img_wh (100%, 100%) 
+}
+
+.imagtc {
+    @include img_wh (100%, 100%) }
